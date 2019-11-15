@@ -12,6 +12,18 @@ class EPages {
 
             $module = "Views/Modules/home.php";
 
+        } elseif($enlacesM == "ok") {
+
+            $module = "Views/Modules/services.php";
+
+        } elseif ($enlacesM == "fail") {
+         
+            $module = "Views/Modules/home.php";
+
+        } elseif ($enlacesM == "users") {
+            
+            $module = "Views/Modules/contact.php";
+
         } else {
 
             $module = "Views/Modules/home.php";

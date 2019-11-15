@@ -1,0 +1,48 @@
+
+
+html {
+    font-family: 'Ubuntu', Calibri, sans-serif;
+}
+
+a.brand-logo {
+    margin-left: 20px !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    background-color: rgba(0,0,0,1) !important;
+    color: #21B046 !important;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.dropdown-content li>a:hover, .dropdown-content li>span:hover {
+    font-size: 16px;
+    background-color: rgba(12,45,3,1) !important;
+    color: #21B046 !important;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+h6#reg {
+    text-align: center !important;
+    font-style: oblique !important;
+    color: teal !important;
+    font-size: 22px !important;
+    text-transform: capitalize !important;
+}
+
+div.section {
+	margin-left: 50px !important;
+	margin-right: 50px !important;
+	text-align: justify !important;
+}
+
+blockquote {
+	margin-left: 70px !important;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #2f8c96 !important;
+}

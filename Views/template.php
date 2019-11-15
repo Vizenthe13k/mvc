@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css"> -->
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="Css/me.css">
+    <link rel="stylesheet" href="css/me.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Cabellito morado</title>
 </head>
@@ -16,17 +16,14 @@
 
     <?php include 'Modules/navbar.php'; ?>
 
-<blockquote>
-
+<div class="container">
     <?php
 
         $mvc = new MvcController();
         $mvc -> E_PagesController();
 
     ?>
-
-</blockquote>
-
+</div>
     <!-- lorem
 	<div class="section">
 

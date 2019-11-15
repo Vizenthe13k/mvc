@@ -1,4 +1,3 @@
     <h4>HOME PAGE</h4>
 
-
-    <?php include 'register.php'; ?>
+<?php require_once 'signin.php'; ?>
